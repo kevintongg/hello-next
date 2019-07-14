@@ -24,6 +24,15 @@ const PostLink = ({ post }) => (
         <a>{ post.title }</a>
       </Link>
       <style jsx>{ `
+        @font-face {
+            font-family: 'Open Sans';
+            src: url('../fonts/OpenSans-Regular.ttf');
+          }
+        
+        * {
+          font-family: 'Open Sans';
+        }
+        
         li {
           list-style: none;
           margin: 5px 0;

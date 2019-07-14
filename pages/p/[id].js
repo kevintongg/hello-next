@@ -21,24 +21,29 @@ And here's the content.
           />
         </div>
         <style jsx global>{ `
-        .markdown {
-          font-family: 'Arial';
-        }
-
-        .markdown a {
-          text-decoration: none;
-          color: blue;
-        }
-
-        .markdown a:hover {
-          opacity: 0.6;
-        }
-
-        .markdown h3 {
-          margin: 0;
-          padding: 0;
-          text-transform: uppercase;
-        }
+          @font-face {
+            font-family: 'Open Sans';
+            src: url('../fonts/OpenSans-Regular.ttf');
+          }
+          
+          * {
+            font-family: 'Open Sans';
+          }
+  
+          .markdown a {
+            text-decoration: none;
+            color: blue;
+          }
+  
+          .markdown a:hover {
+            opacity: 0.6;
+          }
+  
+          .markdown h3 {
+            margin: 0;
+            padding: 0;
+            text-transform: uppercase;
+          }
       ` }</style>
       </Layout>
   );

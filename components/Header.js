@@ -13,6 +13,15 @@ const Header = () => (
         <a style={ linkStyle }>About</a>
       </Link>
       <style jsx>{`
+        @font-face {
+          font-family: 'Open Sans';
+          src: url('../fonts/OpenSans-Regular.ttf');
+        }
+        
+        * {
+          font-family: 'Open Sans';
+        }
+         
         a, a:hover {
           text-decoration: none;
           color: blue;
