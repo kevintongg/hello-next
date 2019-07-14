@@ -12,6 +12,12 @@ const Header = () => (
       <Link href='/about'>
         <a style={ linkStyle }>About</a>
       </Link>
+      <style jsx>{`
+        a, a:hover {
+          text-decoration: none;
+          color: blue;
+        }
+      `}</style>
     </div>
 );
 
