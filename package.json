@@ -17,6 +17,6 @@
     "npm-check": "^5.9.0",
     "react": "^16.9.0",
     "react-dom": "^16.8.6",
-    "react-markdown": "^4.1.0"
+    "react-markdown": "^4.2.1"
   }
 }
