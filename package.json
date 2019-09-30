@@ -16,7 +16,7 @@
     "next": "^9.0.4",
     "npm-check": "^5.9.0",
     "react": "^16.9.0",
-    "react-dom": "^16.8.6",
+    "react-dom": "^16.10.1",
     "react-markdown": "^4.1.0"
   }
 }
